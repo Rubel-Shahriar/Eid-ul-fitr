@@ -1,0 +1,126 @@
+@media (min-width: 320px) and (max-width: 575px){
+    #particles-js .countdown{
+        margin-top: 100px;
+        padding-top: 30px;
+    }
+    #particles-js .countdown h3{
+        font-size: 14px;
+        width: 200px
+    }
+    #particles-js .countdown .item{
+        width: 18%;
+        background: transparent;
+    }
+    #particles-js .countdown .item h1{
+        font-size: 20px;
+        background: rgba(0, 128, 128, .7);
+        padding: 10px 0;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    #particles-js .countdown .item h2{
+        font-size: 13px;
+        margin: 10px 0;
+    }
+    #particles-js .countdown .rubel{
+        font-size: 13px;
+        width: 170px;
+        top: 150px;
+    }
+    #particles-js .countdown .question{
+        font-size: 15px;
+        top: 200px;
+        padding: 10px 10px;
+        width: 300px;
+    }
+    .pop-up .text p{
+        font-size: 16px;
+        width: auto;
+    }
+    .pop-up .text .btn{
+        font-size: 16px;
+        padding: 4px 100px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    #particles-js .countdown{
+        margin-top: 130px;
+        padding-top: 50px;
+    }
+    #particles-js .countdown h3{
+        font-size: 18px;
+    }
+    #particles-js .countdown .item{
+        width: 18%;
+        background: transparent;
+    }
+    #particles-js .countdown .item h1{
+        font-size: 35px;
+        background: rgba(0, 128, 128, .7);
+        padding: 25px 0;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    #particles-js .countdown .item h2{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    #particles-js .countdown .rubel{
+        font-size: 15px;
+        top: 240px;
+    }
+    #particles-js .countdown .question{
+        font-size: 18px;
+        top: 320px;
+        width: 393px;
+    }
+    .pop-up .text p{
+        font-size: 18px;
+        width: auto;
+    }
+    .pop-up .text .btn{
+        font-size: 18px;
+        padding: 4px 100px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #particles-js .countdown{
+        margin-top: 150px;
+        padding-top: 60px;
+    }
+    #particles-js .countdown h3{
+        font-size: 20px;
+    }
+    #particles-js .countdown .item{
+        width: 18%;
+        background: transparent;
+    }
+    #particles-js .countdown .item h1{
+        font-size: 40px;
+        background: rgba(0, 128, 128, .7);
+        padding: 25px 0;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    #particles-js .countdown .item h2{
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    #particles-js .countdown .rubel{
+        font-size: 16px;
+        top: 260px;
+    }
+    #particles-js .countdown .question{
+        font-size: 18px;
+        top: 340px;
+        width: 393px;
+    }
+    .pop-up .text p{
+        font-size: 20px;
+        width: auto;
+    }
+    .pop-up .text .btn{
+        font-size: 20px;
+        padding: 4px 100px;
+    }
+}
