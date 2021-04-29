@@ -40,13 +40,13 @@ a,a:hover,a:focus{
 }
 #particles-js .countdown .item{
     text-align: center;
-    width: 15%;
+    width: 20%;
     background: rgba(0, 128, 128, .7);
     margin: 0 10px;
     border-radius: 20px;
 }
 #particles-js .countdown .item h1{
-    font-size: 45px;
+    font-size: 65px;
     margin-top: 40px;
 }
 #particles-js .countdown .item h2{
