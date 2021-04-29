@@ -9,7 +9,7 @@
     }
     #particles-js .countdown .item{
         width: 18%;
-        background: transparent;
+        background: teal;
     }
     #particles-js .countdown .item h1{
         font-size: 20px;
