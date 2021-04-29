@@ -44,7 +44,7 @@
 }
 @media (min-width: 576px) and (max-width: 767px){
     #particles-js .countdown{
-        margin-top: 130px;
+        margin-top: 10px;
         padding-top: 50px;
     }
     #particles-js .countdown h3{
