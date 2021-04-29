@@ -27,15 +27,20 @@ a,a:hover,a:focus{
     transform: translateX(-50%);
     padding-top: 80px;
 }
-#particles-js .countdown h3{
-    font-family: 'Merriweather', serif;
-    font-size: 20px;
-    color: #fff;
-    text-transform: capitalize;
+#particles-js .countdown .title{
+    text-align: center;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+#particles-js .countdown .title h3{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
 }
 #particles-js .countdown .item{
     text-align: center;
@@ -55,30 +60,31 @@ a,a:hover,a:focus{
     font-weight: 700;
     text-transform: uppercase;
 }
-#particles-js .countdown .rubel{
-    font-family: 'Merriweather', serif;
-    font-size: 18px;
-    color: #fff;
-    text-transform: capitalize;
+#particles-js .countdown .creator{
+    text-align: center;
+    width: 100%;
     position: absolute;
     top: 340px;
     left: 50%;
     transform: translateX(-50%);
 }
-#particles-js .countdown .question{
+#particles-js .countdown .creator .rubel{
     font-family: 'Merriweather', serif;
     font-size: 18px;
     color: #fff;
     text-transform: capitalize;
-    position: absolute;
-    top: 420px;
-    left: 50%;
-    transform: translateX(-50%);
+}
+#particles-js .countdown .creator .question{
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
     padding: 10px 30px;
     background: teal;
     border-radius: 15px;
+    margin-top: 80px;
     cursor: pointer;
-    transition: .4s;
 }
 .pop-up{
     text-align: center;

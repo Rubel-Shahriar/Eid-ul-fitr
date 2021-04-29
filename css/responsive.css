@@ -3,9 +3,8 @@
         margin-top: 100px;
         padding-top: 40px;
     }
-    #particles-js .countdown h3{
+    #particles-js .countdown .title h3{
         font-size: 18px;
-        width: 250px
     }
     #particles-js .countdown .item{
         width: 23%;
@@ -14,25 +13,24 @@
     }
     #particles-js .countdown .item h1{
         font-size: 45px;
-        background: rgba(0, 128, 128, .7);
+        background: rgba(0, 128, 128, .9);
         padding: 10px 0;
         border-radius: 5px;
-        margin-top: 20px;
     }
     #particles-js .countdown .item h2{
-        font-size: 15px;
+        font-size: 16px;
         margin: 10px 0;
     }
-    #particles-js .countdown .rubel{
-        font-size: 13px;
-        width: 170px;
-        top: 190px;
+    #particles-js .countdown .creator{
+        top: 224px;
     }
-    #particles-js .countdown .question{
+    #particles-js .countdown .creator .rubel{
+        font-size: 13px;
+    }
+    #particles-js .countdown .creator .question{
         font-size: 15px;
-        top: 260px;
-        padding: 10px 10px;
-        width: 300px;
+        padding: 10px 20px;
+        margin-top: 62px;
     }
     .pop-up{
         top: 47%;
@@ -50,8 +48,8 @@
         margin-top: 130px;
         padding-top: 50px;
     }
-    #particles-js .countdown h3{
-        font-size: 18px;
+    #particles-js .countdown .title h3{
+        font-size: 20px;
     }
     #particles-js .countdown .item{
         width: 18%;
@@ -59,30 +57,29 @@
     }
     #particles-js .countdown .item h1{
         font-size: 50px;
-        background: rgba(0, 128, 128, .7);
-        padding: 25px 0;
+        background: rgba(0, 128, 128, .9);
+        padding: 20px 0;
         border-radius: 10px;
-        margin-top: 20px;
     }
     #particles-js .countdown .item h2{
         font-size: 20px;
         margin: 10px 0;
     }
-    #particles-js .countdown .rubel{
-        font-size: 15px;
-        top: 260px;
+    #particles-js .countdown .creator{
+        top: 270px;
     }
-    #particles-js .countdown .question{
+    #particles-js .countdown .creator .rubel{
+        font-size: 15px;
+    }
+    #particles-js .countdown .creator .question{
         font-size: 18px;
-        top: 350px;
-        width: 393px;
     }
     .pop-up .text p{
         font-size: 18px;
-        width: auto;
     }
     .pop-up .text .btn{
-        font-size: 18px;    }
+        font-size: 18px;    
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     #particles-js .countdown{
@@ -109,15 +106,11 @@
     }
     #particles-js .countdown .rubel{
         font-size: 16px;
-        top: 260px;
     }
     #particles-js .countdown .question{
         font-size: 18px;
-        top: 340px;
-        width: 393px;
     }
     .pop-up .text p{
         font-size: 20px;
-        width: auto;
     }
 }
