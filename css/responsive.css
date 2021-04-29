@@ -25,7 +25,8 @@
         top: 224px;
     }
     #particles-js .countdown .creator .rubel{
-        font-size: 13px;
+        font-size: 14px;
+        font-weight: 400;
     }
     #particles-js .countdown .creator .question{
         font-size: 15px;
@@ -35,12 +36,13 @@
     .pop-up{
         top: 47%;
     }
-    .pop-up .text p{
-        font-size: 14px;
+    .pop-up .text .para{
+        font-size: 15px;
         width: 309px;
     }
-    .pop-up .text .btn{
-        font-size: 14px;
+    .pop-up .text .btn h4{
+        font-size: 15px;
+
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -74,10 +76,10 @@
     #particles-js .countdown .creator .question{
         font-size: 18px;
     }
-    .pop-up .text p{
+    .pop-up .text .para{
         font-size: 18px;
     }
-    .pop-up .text .btn{
+    .pop-up .text .btn h4{
         font-size: 18px;    
     }
 }
@@ -110,7 +112,7 @@
     #particles-js .countdown .question{
         font-size: 18px;
     }
-    .pop-up .text p{
+    .pop-up .text .para{
         font-size: 20px;
     }
 }

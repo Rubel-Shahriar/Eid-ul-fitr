@@ -14,7 +14,8 @@ a,a:hover,a:focus{
 }
 #particles-js{
     position: relative;
-    background: crimson;
+    background: url(../images/wallpaperflare.com_wallpaper.jpg) no-repeat center;
+    background-size: cover;
 }
 #particles-js .countdown{
     color: #fff;
@@ -72,6 +73,7 @@ a,a:hover,a:focus{
     font-family: 'Merriweather', serif;
     font-size: 18px;
     color: #fff;
+    font-weight: 500;
     text-transform: capitalize;
 }
 #particles-js .countdown .creator .question{
@@ -95,20 +97,24 @@ a,a:hover,a:focus{
     display: none;
     z-index: 1;
 }
-.pop-up .text p{
+.pop-up .text .para{
     font-family: 'DM Serif Text', serif;
     color: #fff;
     font-size: 20px;
+    font-weight: 500;
 }
 .pop-up .text .btn{
     width: 100%;
-    font-family: 'DM Serif Text', serif;
-    font-size: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     background: teal;
-    border-radius: 30px;
+    border-radius: 20px;
     margin-top: 20px;
+}
+.pop-up .text .btn h4{
+    font-family: 'DM Serif Text', serif;
+    font-size: 20px;
+    font-weight: 500;
 }
 .blur{
     filter: blur(13px);
