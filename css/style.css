@@ -14,8 +14,7 @@ a,a:hover,a:focus{
 }
 #particles-js{
     position: relative;
-    background: url(../images/wallpaperflare.com_wallpaper.jpg) no-repeat center;
-    background-size: cover;
+    background: crimson;
 }
 #particles-js .countdown{
     color: #fff;
@@ -46,7 +45,7 @@ a,a:hover,a:focus{
     border-radius: 20px;
 }
 #particles-js .countdown .item h1{
-    font-size: 45px;
+    font-size: 55px;
     margin-top: 40px;
 }
 #particles-js .countdown .item h2{
@@ -62,7 +61,7 @@ a,a:hover,a:focus{
     color: #fff;
     text-transform: capitalize;
     position: absolute;
-    top: 320px;
+    top: 340px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -79,6 +78,7 @@ a,a:hover,a:focus{
     background: teal;
     border-radius: 15px;
     cursor: pointer;
+    transition: .4s;
 }
 .pop-up{
     text-align: center;
@@ -93,16 +93,17 @@ a,a:hover,a:focus{
     font-family: 'DM Serif Text', serif;
     color: #fff;
     font-size: 20px;
-    width: 700px;
 }
 .pop-up .text .btn{
+    width: 100%;
     font-family: 'DM Serif Text', serif;
     font-size: 20px;
-    padding: 5px 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background: teal;
     border-radius: 30px;
     margin-top: 20px;
 }
 .blur{
-    filter: blur(20px);
+    filter: blur(13px);
 }
