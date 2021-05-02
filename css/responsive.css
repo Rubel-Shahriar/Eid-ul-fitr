@@ -14,7 +14,7 @@
     #particles-js .countdown .item h1{
         font-size: 45px;
         background: rgba(0, 128, 128, .9);
-        padding: 10px 0;
+        padding: 13px 0;
         border-radius: 5px;
     }
     #particles-js .countdown .item h2{
@@ -31,17 +31,22 @@
     #particles-js .countdown .creator .question{
         font-size: 15px;
         padding: 10px 20px;
+        background: rgba(0, 128, 128, .9);
         margin-top: 62px;
     }
     .pop-up{
         top: 47%;
     }
     .pop-up .text .para{
-        font-size: 15px;
+        font-size: 16px;
         width: 309px;
     }
+    .pop-up .text .btn{
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
     .pop-up .text .btn h4{
-        font-size: 15px;
+        font-size: 18px;
 
     }
 }

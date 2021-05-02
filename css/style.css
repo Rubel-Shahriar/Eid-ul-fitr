@@ -14,8 +14,7 @@ a,a:hover,a:focus{
 }
 #particles-js{
     position: relative;
-    background: url(../images/wallpaperflare.com_wallpaper.jpg) no-repeat center;
-    background-size: cover;
+    background: crimson;
 }
 #particles-js .countdown{
     color: #fff;
